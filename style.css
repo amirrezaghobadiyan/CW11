@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+.container {
+    background: linear-gradient(89.01deg, #3ab0e4 -10.97%, #1abc9c 99.15%);
+    text-align: center;
+    direction: rtl;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Scheherazade';
+    font-size: 22px;
+    width: 100%;
+}
+
+.one {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.two {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(240, 248, 255, 0.682);
+}
+
+.three {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+select {
+    border: none;
+    width: 20rem;
+    height: 4rem;
+    font-family: 'Scheherazade';
+    font-size: 26px;
+}
+
+.btn-1 {
+    border: none;
+    font-family: 'Scheherazade';
+    font-size: 22px;
+    width: 10rem;
+    height: 4rem;
+    background: rgb(255, 205, 112);
+}
+
+input {
+    border: none;
+    width: 20rem;
+    height: 4rem;
+    font-family: 'Scheherazade';
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
