@@ -1,8 +1,16 @@
 @import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Scheherazade";
 }
-.container {
+
+.middlepart {
   background: linear-gradient(89.01deg, #3ab0e4 -10.97%, #1abc9c 99.15%);
   text-align: center;
   direction: rtl;
@@ -11,6 +19,7 @@ body {
   font-family: "Scheherazade";
   font-size: 22px;
   width: 100%;
+  height: 17.25rem;
 }
 
 .one {
@@ -58,24 +67,33 @@ a {
   text-decoration: none;
   color: aliceblue;
 }
+
 .header {
   display: flex;
+  position: relative;
   width: 100%;
-  height: 72px;
+  height: 4rem;
   background-color: rgba(0, 0, 0, 0.731);
   color: white;
   flex-direction: row;
-  padding-left: 200px;
+  /* padding-left: 200px; */
   gap: 150px;
+
 }
 
 .left {
   display: flex;
+  position: relative;
+  left: 10rem;
   gap: 20px;
+  font-size: 26px;
 }
 
 .right {
   display: flex;
+  position: relative;
+  left: 40rem;
+  font-size: 26px;
 }
 
 .home {
@@ -97,6 +115,28 @@ img {
   padding-top: 20px;
 }
 
-#icon {
-  font-size: 22px;
+.bell {
+  width: 2rem;
+  height: 2rem;
+}
+
+.personal {
+  width: 2rem;
+  height: 2rem;
+}
+
+.login {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer {
+  align-items: center;
+  text-align: center;
+
+}
+
+.lastimg {
+  width: 100rem;
+  height: 12rem;
 }

@@ -1,112 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CW11</title>
-  </head>
 
-  <body>
-    <div class="header">
-      <div class="left">
-        <div class="job public">
-          <h2 id="icon">jobinja</h2>
-        </div>
-        <div class="job public">
-          <span id="icon">ورود کارجو<img src="./1.png" alt="" /></span>
-        </div>
-        <div class="job public">
-          <span id="icon">ثبت نام کارجو<img src="./2.png" alt="" /></span>
-        </div>
-        <div class="job public">
-          <img src="./3.png" alt="" />
-        </div>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CW11</title>
+</head>
+<!-- header -->
+<div class="container">
+  <div class="header">
+    <div class="left">
+      <div class="job public">
+        <span id="icon">ورود کارجو<img src="./1.png" alt="" class="login" /></span>
       </div>
-      <div class="right">
-        <div class="home public">
-          <span id="icon">بخش کارفرمایان<img src="./4.png" alt="" /></span>
-        </div>
-        <div class="home public">
-          <span id="icon">50شرکت برتر<img src="./5.png" alt="" /></span>
-        </div>
-
-        <div class="home public">
-          <span id="icon">رزومه ساز<img src="./6.png" alt="" /></span>
-        </div>
-
-        <div class="home public">
-          <span id="icon">جستجوی مشاغل<img src="./7.png" alt="" /></span>
-        </div>
-
-        <div class="home public">
-          <span id="icon">خانه<img src="./8.png" alt="" /></span>
-        </div>
+      <div class="job public">
+        <span id="icon">ثبت نام کارجو<img src="./2.png" alt="" class="personal" /></span>
+      </div>
+      <div class="job public">
+        <img src="./3.png" alt="" class="bell" />
       </div>
     </div>
-    <div class="container">
-      <div class="middlepart">
-        <p class="one">۲۲,۵۳۹ آگهی استخدام فعال در ۸,۸۶۵ شرکت ایرانی</p>
-        <p class="two">
-          سامانه کاریابی آنلاین با بیشترین تعداد آگهی استخدام در ایران
-        </p>
-        <input
-          type="search"
-          name="..."
-          id="input-one"
-          placeholder="عنوان شغلی، نام شرکت ، مهارت ها یا ..."
-        />
-        <select id="state" name="state">
-          <option value="">همه ی استان ها</option>
-          <optgroup>
-            <option value="">تهران</option>
-            <option value="">خراسان رضوی</option>
-            <option value="">اصفهان</option>
-            <option value="">البرز</option>
-            <option value="">فارس</option>
-            <option value="">قم</option>
-            <option value="">آذربایجان شرقی</option>
-            <option value="">مازندران</option>
-            <option value="">خوزستان</option>
-            <option value="">گیلان</option>
-            <option value="">یزد</option>
-            <option value="">قزوین</option>
-            <option value="">هرمزگان</option>
-            <option value="">کرمان</option>
-            <option value="">مرکزی</option>
-            <option value="">گلستان</option>
-            <option value="">آذربایجان غربی</option>
-            <option value="">سمنان</option>
-            <option value="">زنجان</option>
-            <option value="">بوشهر</option>
-            <option value="">اردبیل</option>
-            <option value="">کرمانشاه</option>
-            <option value="">سیستان و بلوچستان</option>
-            <option value="">همدان</option>
-            <option value="">کردستان</option>
-            <option value="">چهار محال و بختیاری</option>
-            <option value="">خراسلان جنوبی</option>
-            <option value="">کهگیلویه و بویراحمد</option>
-            <option value="">لرستان</option>
-            <option value="">ایلام</option>
-            <option value="">خراسان شمالی</option>
-          </optgroup>
-        </select>
-        <select id="menu" name="menu">
-          <option value="option1">همه ی دسته بندی ها</option>
-          <option value="option2">فروش و بازاریابی</option>
-          <option value="option3">وب، برنامه نویسی و نرم افزار</option>
-          <option value="option4">مالی و حسابداری</option>
-          <option value="option5">مسئول دفتر، اجرائی و اداری</option>
-          <option value="option6">دیجیتال مارکتینگ</option>
-          <option value="option7">تولید و مدیریت محتوا</option>
-          <option value="option8">طراحی</option>
-          <option value="option9">پشتیبانی و امور مشتریان</option>
-        </select>
-        <button class="btn-1">جست و جو در مشاغل</button>
-        <p class="three"><a href="#">مشاهده آگهی های استخدام ></a></p>
+    <div class="right">
+      <div class="home public">
+        <span id="icon">بخش کارفرمایان<img src="./4.png" alt="" /></span>
+      </div>
+      <div class="home public">
+        <span id="icon">50شرکت برتر<img src="./5.png" alt="" /></span>
+      </div>
+
+      <div class="home public">
+        <span id="icon">رزومه ساز<img src="./6.png" alt="" /></span>
+      </div>
+
+      <div class="home public">
+        <span id="icon">جستجوی مشاغل<img src="./7.png" alt="" /></span>
+      </div>
+
+      <div class="home public">
+        <span id="icon">خانه<img src="./8.png" alt="" /></span>
       </div>
     </div>
-  </body>
+  </div>
+  <!-- main -->
+
+  <div class="middlepart">
+    <p class="one">۲۲,۵۳۹ آگهی استخدام فعال در ۸,۸۶۵ شرکت ایرانی</p>
+    <br>
+    <p class="two">
+      سامانه کاریابی آنلاین با بیشترین تعداد آگهی استخدام در ایران
+    </p>
+    <br>
+    <input type="search" name="..." id="input-one" placeholder="عنوان شغلی، نام شرکت ، مهارت ها یا ..." />
+    <select id="state" name="state">
+      <option value="">همه ی استان ها</option>
+      <optgroup>
+        <option value="">تهران</option>
+        <option value="">خراسان رضوی</option>
+        <option value="">اصفهان</option>
+        <option value="">البرز</option>
+        <option value="">فارس</option>
+        <option value="">قم</option>
+        <option value="">آذربایجان شرقی</option>
+        <option value="">مازندران</option>
+        <option value="">خوزستان</option>
+        <option value="">گیلان</option>
+        <option value="">یزد</option>
+        <option value="">قزوین</option>
+        <option value="">هرمزگان</option>
+        <option value="">کرمان</option>
+        <option value="">مرکزی</option>
+        <option value="">گلستان</option>
+        <option value="">آذربایجان غربی</option>
+        <option value="">سمنان</option>
+        <option value="">زنجان</option>
+        <option value="">بوشهر</option>
+        <option value="">اردبیل</option>
+        <option value="">کرمانشاه</option>
+        <option value="">سیستان و بلوچستان</option>
+        <option value="">همدان</option>
+        <option value="">کردستان</option>
+        <option value="">چهار محال و بختیاری</option>
+        <option value="">خراسلان جنوبی</option>
+        <option value="">کهگیلویه و بویراحمد</option>
+        <option value="">لرستان</option>
+        <option value="">ایلام</option>
+        <option value="">خراسان شمالی</option>
+      </optgroup>
+    </select>
+    <select id="menu" name="menu">
+      <option value="option1">همه ی دسته بندی ها</option>
+      <option value="option2">فروش و بازاریابی</option>
+      <option value="option3">وب، برنامه نویسی و نرم افزار</option>
+      <option value="option4">مالی و حسابداری</option>
+      <option value="option5">مسئول دفتر، اجرائی و اداری</option>
+      <option value="option6">دیجیتال مارکتینگ</option>
+      <option value="option7">تولید و مدیریت محتوا</option>
+      <option value="option8">طراحی</option>
+      <option value="option9">پشتیبانی و امور مشتریان</option>
+    </select>
+    <button class="btn-1">جست و جو در مشاغل</button>
+    <br><br>
+    <p class="three"><a href="#">مشاهده آگهی های استخدام ></a></p>
+  </div>
+  <br><br><br><br>
+  <div class="footer">
+    <img src="last.png" alt="companies" class="lastimg">
+  </div>
+</div>
+</body>
+
 </html>
