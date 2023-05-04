@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 72px;
+  background-color: rgba(0, 0, 0, 0.731);
+  color: white;
+  flex-direction: row;
+  padding-left: 200px;
+  gap: 150px;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+}
+
+.home {
+  padding: 20px;
+  border-right: 2px inset rgba(4, 4, 4, 0.6);
+}
+
+img {
+  width: 17px;
+  height: 17px;
+}
+
+.public:hover {
+  cursor: pointer;
+  background-color: rgba(4, 4, 4, 0.05);
+}
+
+.job {
+  padding-top: 20px;
+  /* border-right: 2px inset rgba(4, 4, 4, 0.6); */
+}
