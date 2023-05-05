@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import "colors";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Scheherazade";
+    overflow: hidden;
+}
+
+.middlepart {
+    background: linear-gradient(89.01deg, #3ab0e4 -10.97%, #1abc9c 99.15%);
+    text-align: center;
+    direction: rtl;
+    font-size: 18px;
+    color: $white;
+    font-family: "Scheherazade";
+    font-size: 22px;
+    width: 100vw;
+    height: 17.25rem;
+}
+
+.one {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.two {
+    font-size: 32px;
+    font-weight: 500;
+    color: $gray;
+}
+
+.three {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+select {
+    border: none;
+    width: 20rem;
+    height: 4rem;
+    font-family: "Scheherazade";
+    font-size: 26px;
+}
+
+.btn-1 {
+    border: none;
+    font-family: "Scheherazade";
+    font-size: 22px;
+    width: 10rem;
+    height: 4rem;
+    background: $yellow;
+}
+
+input {
+    border: none;
+    width: 20rem;
+    height: 4rem;
+    font-family: "Scheherazade";
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 4rem;
+    background-color: $black_07;
+    color: $white;
+    flex-direction: row;
+    /* padding-left: 200px; */
+    gap: 150px;
+
+}
+
+.left {
+    display: flex;
+    position: relative;
+    left: 10rem;
+    gap: 20px;
+    font-size: 26px;
+}
+
+.right {
+    display: flex;
+    position: relative;
+    left: 10%;
+    font-size: 26px;
+}
+
+.home {
+    padding: 20px;
+    border-right: 2px inset $black_06;
+}
+
+img {
+    width: 17px;
+    height: 17px;
+}
+
+.public:hover {
+    cursor: pointer;
+    background-color: $black_05;
+}
+
+.job {
+    padding-top: 20px;
+}
+
+.bell {
+    width: 2rem;
+    height: 2rem;
+}
+
+.personal {
+    width: 2rem;
+    height: 2rem;
+}
+
+.login {
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer {
+    align-items: center;
+    text-align: center;
+
+}
+
+.lastimg {
+    width: 100rem;
+    height: 12rem;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.footer img {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 3rem;
+}
+
+.swiper-width {
+    width: 70%;
+}
+
+.p1 {
+    font-size: 18px;
+    color: gray;
+    font-family: "Scheherazade";
+}
+
+.p2 {
+    font-size: 26px;
+    font-family: "Scheherazade";
+}
+
+.swiper-button-prev::after {
+    content: "";
+    all: unset !important;
+}
+
+
+.swiper-button-next::after {
+    all: unset !important;
+}
